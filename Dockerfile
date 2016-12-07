@@ -1,3 +1,5 @@
+#Image built for Marketplace
+
 FROM centos:7
 
 RUN yum update -y && yum install -y -q curl python build-essential git ca-certificates
